@@ -1,20 +1,20 @@
+// captura dos numeros
 const horas = document.getElementById("horas");
 const minutos = document.getElementById("minutos");
 const segundos = document.getElementById("segundos");
 
-const relogio = setInterval(function time() {
-    let dataToday = new Date();
-    let hr = dataToday.getHours();
-    let min = dataToday.getMinutes();
-    let sec = dataToday.getSeconds();
+// funcao para alterar o relogio
+const atualizarRelogio = setInterval(() => {
+  // captura a data e hora atual
+  let dataHoje = new Date();
+  // captura os numeros de horas, minutos e segundos
+  // já adicionando o zero a esquerda com string().padStart(2, "0")
+  let hora = String(dataHoje.getHours()).padStart(2, "0");
+  let minuto = String(dataHoje.getMinutes()).padStart(2, "0");
+  let segundo = String(dataHoje.getSeconds()).padStart(2, "0");
 
-    if (hr < 10) hr = "0" + hr;
-
-    if (min < 10) min = "0" + min;
-
-    if (sec < 10) sec = "0" + sec;
-
-    horas.textContent = hr;
-    minutos.textContent = min;
-    segundos.textContent = sec;
+  // altera o conteudo dos elementos html
+  horas.textContent = hora;
+  minutos.textContent = minuto;
+  segundos.textContent = segundo;
 });
