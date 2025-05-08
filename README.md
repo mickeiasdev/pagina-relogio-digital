@@ -10,18 +10,18 @@ Este é um projeto simples de um **relógio digital dinâmico** criado com **HTM
 
 ## 🚀 Tecnologias utilizadas
 
-- **HTML5**  
-- **CSS3**  
-- **JavaScript (ES6+)**
+- HTML5
+- CSS3
+- JavaScript (ES6+)
 
-Você pode aprender mais sobre cada uma delas aqui:
+**Você pode aprender mais sobre cada uma delas aqui:**
 - [HTML5](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
 - [CSS3](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 - [JavaScript (ES6+)](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference)
 
 ## 📁 Estrutura do projeto
 
-```
+```bash
 relogio-dinamico/  
 ├── assets/  
 │   ├── css/  
@@ -29,7 +29,7 @@ relogio-dinamico/
 │   └── js/  
 │       └── index.js  
 ├── index.html  
-└── README.md  
+└── README.md
 ```
 
 - **`assets/`**: Contém os arquivos de estilo (CSS) e o script JavaScript.
@@ -54,13 +54,13 @@ relogio-dinamico/
 
 ## ✨ Funcionalidades
 
-- **Mostra horas, minutos e segundos em tempo real**
-- **Layout estilizado com fundo gradiente e caixas com sombra**  
-- **Formatação automática com dois dígitos usando `padStart`**  
+- Mostra horas, minutos e segundos em tempo real
+- **Layout estilizado com fundo gradiente e caixas com sombra
+- Formatação automática com dois dígitos usando `padStart`
 
 ## 🛠️ Código JavaScript principal
 
-O código responsável por atualizar o relógio a cada segundo é:
+**O código responsável por atualizar o relógio a cada segundo é:**
 ```javascript
 const horas = document.getElementById("horas");
 const minutos = document.getElementById("minutos");
