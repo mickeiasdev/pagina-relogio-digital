@@ -55,7 +55,7 @@ relogio-dinamico/
 ## ✨ Funcionalidades
 
 - Mostra horas, minutos e segundos em tempo real
-- **Layout estilizado com fundo gradiente e caixas com sombra
+- Layout estilizado com fundo gradiente e caixas com sombra
 - Formatação automática com dois dígitos usando `padStart`
 
 ## 🛠️ Código JavaScript principal
@@ -83,3 +83,5 @@ const atualizarRelogio = setInterval(() => {
 Desenvolvido por [Mickeias Coelho](https://github.com/mickeiasdev)
 
 Sinta-se à vontade para fazer contribuições ou melhorar o código.
+
+📌 **Observação:** Este projeto foi desenvolvido como parte de um estudo pessoal com o objetivo de praticar e aprofundar conhecimentos na área.
